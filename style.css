@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/*
+    Pilko teksto spalva
+    #666;
+
+    Bloko viršutinio border ir h1 spalva:
+    #0974b3
+
+*/
+
+body {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    margin: 5px;
+    background: #D3D3D3;
+}
+
+.newton-container {
+  width: 55%;
+  height: 350px;
+  background-color: white;
+  padding: 20px;
+  border-top: 4px solid #0974b3;
+  overflow: auto;
+}
+
+.einstein-container {
+  width: 26%;
+  height: 450px;
+  border-top: 4px solid #0974b3;
+  margin-top: 30px;
+  background-color: white;
+  padding: 20px;
+  overflow: auto;
+}
+
+.tesla-container {
+  width: 26%;
+  height: 450px;
+  border-top: 4px solid #0974b3;
+  margin-top: 30px;
+  margin-left: 3%;
+  background-color: white;
+  padding: 20px;
+  overflow: auto;
+
+}
+
+.header {
+  color: #0974b3;
+  margin-top: 5px;
+
+}
+
+.years {
+  color: #666;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  margin-top: -0.5%;
+}
+
+.quote-newton {
+  color: #666;
+  padding-right: 20px;
+}
+
+.quote-einstein {
+  color: #666;
+  padding-right: 20px;
+}
+
+.quote-tesla {
+  color: #666;
+  padding-right: 5px;
+}
+
+.p-newton {
+  color: #666;
+  padding-right: 100px;
+}
+
+.p-einstein {
+  color: #666;
+  padding-right: 60px;
+}
+
+.p-tesla {
+  color: #666;
+  padding-right: 10px;
+}
+
+.img-newton {
+  width: 16%;
+  height: auto;
+  float: left;
+  margin-right: 15px;
+}
+
+.img-einstein {
+  width: 35%;
+  height: auto;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+
+.img-tesla {
+  width: 35%;
+  height: auto;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.bottom-containers {
+  display: flex;
+}
